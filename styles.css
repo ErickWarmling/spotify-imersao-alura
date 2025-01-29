@@ -166,3 +166,44 @@ body {
     padding: 8px;
     border-radius: 20px;
 }
+
+.test-premium {
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #101926, #2bdefd);
+    padding: 15px 40px;
+    position: fixed;
+}
+
+.test-premium .text {
+    flex-shrink: 0;
+}
+
+.test-premium .test-premium-title {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.test-premium .test-premium-subtitle {
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.test-premium button {
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
